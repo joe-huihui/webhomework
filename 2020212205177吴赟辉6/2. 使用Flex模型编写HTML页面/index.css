@@ -1,0 +1,74 @@
+li {
+    list-style: none;
+}
+body {
+    background-color: #99bd90;
+}
+.single{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 390px;
+    background-color: #ffffeb;
+    display: flex;
+    flex-direction: column;
+}
+.picture {
+    width: 390px;
+    height: 260px;
+    box-shadow: 0px 0px 0px 1px inset;
+}
+.text {
+    width: 390px;
+    height: 110px;
+    background-color: #ffe6f4;
+    box-shadow: 0px 0px 0px 1px inset;
+    display: flex;
+    flex-direction: column;
+}
+.t1 {
+    width: 360px;
+    height: 20px;
+    background-color: #fff;
+    margin: 10px 0px 0px 10px;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0px 0px 0px 10px;
+}
+.t2 {
+    width: 360px;
+    height: 20px;
+    color: #f70b42;
+    background-color: #fff;
+    margin: 10px 0px 0px 10px;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0px 0px 0px 10px;
+}
+.t3 {
+    width: 360px;
+    height: 30px;
+    background-color: #fff;
+    margin: 10px 0px 0px 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 0px 10px;
+}
+.t3-1 {
+    color: #f70b42;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 10px 0px 0px;
+}
+.t3-2 {
+    color: #595959;
+    font-size: 10px;
+}
+.t3-3 {
+    color: #595959;
+    font-size: 10px;
+    justify-content:flex-end;
+}
+.t3>em {
+    width: 146px;
+}

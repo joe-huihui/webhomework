@@ -1,0 +1,218 @@
+.bk {
+	position: absolute;
+	width: 608px;
+	height: 881px;
+	background: url('背景.jpg') no-repeat;
+	opacity: 0;
+	background-size: 50% 50%;
+}
+.m-taobao {
+	width: 304px;
+	height: 440px;
+	border: 7px solid #f4f4f4;
+	box-sizing: border-box;
+}
+div {
+	display: block;
+}
+.m-hd {
+    width: 304px;
+    height: 49px;
+    text-align: center;
+    padding: 0px 0px 5px 2px;
+}
+li {
+	list-style: none;
+}
+.m-hd>li {
+    float: left;
+    padding: 8px 3px 8px 27px;
+}
+.m-hd>li>label {
+	display: block;
+	color: #dd0000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.m-hd>li>span {
+	font-size: 12px;
+}
+.m-b {
+    width: 210px;
+    height: 18px;
+    float: left;
+    color: #dd0000;
+    font-weight: bold;
+    padding: 7px 0px 3px 81px;
+    font-size: 12px;
+    background-color: #ffe5de;
+}
+.m-hd2 {
+	width: 304 px;
+	height: 0px;
+    text-align: center;
+    padding: 0px 3px 0px 10px;
+}
+.m-hd2>li {
+    float: left;
+    padding: 15px 17px 0px 11px;
+    font-size: 13px;
+}
+.m-mid {
+    text-align: center;
+    padding: 76px 18px 0px 1px;
+}
+.m-mid>span {
+	text-align: left;
+    font-size: 12px;
+    color: #dd0000;
+    padding: 0px 25px 0px 0px;
+}
+.m-mid2 {
+    text-align: center;
+    padding: 3px 24px 0px 0px;
+}
+.m-mid2>span {
+    font-size: 12px;
+    padding: 0px 28px 0px 12px;
+}
+.phone {
+	width: 152px;
+	height: 190px;
+	background: url('充话费.png') no-repeat;
+	opacity: 1;
+}
+.trip {
+	width: 152px;
+	height: 190px;
+	background: url('旅行.png') no-repeat;
+	opacity: 1;
+}
+.car {
+	width: 152px;
+	height: 190px;
+	background: url('车险.png') no-repeat;
+	opacity: 1;
+}
+.game {
+	width: 152px;
+	height: 190px;
+	background: url('游戏.png') no-repeat;
+	opacity: 1;
+}
+.m-bh1 {
+    width: 304px;
+    height: 82px;
+    padding: 17px 0px 0px 0px;
+}
+.m-bh1>div {
+    float: left;
+    width: 43px;
+    height: 55px;
+    padding: 5px 13px 16px 15px;
+}
+.m-bh1-phone {
+	border-top: 1px solid #fd451f;
+	border-right: 1px solid #fd451f;
+	border-left: 1px solid #fd451f;
+}
+.m-bh1-trip {
+	border-bottom: 1px solid #fd451f;
+}
+.m-bh1-car {
+	border-bottom: 1px solid #fd451f;
+}
+.m-bh1-game {
+	border-bottom: 1px solid #fd451f;
+}
+.a {
+	color: #ffc4b5;
+	font-size: 12.5px;
+	position: absolute; 
+	left: 32px;
+	top: 252px;
+}
+.b {
+	font-size: 12.5px;
+	position: absolute; 
+	left: 110px;
+	top: 250px;
+}
+.c {
+	font-size: 12.5px;
+	position: absolute; 
+	left: 183px;
+	top: 251px;
+}
+.d {
+	font-size: 12.5px;
+	position: absolute; 
+	left: 255px;
+	top: 251px;
+}
+.m-bh2 {
+    width: 287px;
+    height: 156px;
+    border-bottom: 1px solid #fd451f;
+    border-right: 1px solid #fd451f;
+    border-left: 1px solid #fd451f;
+    position: absolute;
+    left: 15px;
+    top: 283px;
+}
+.m-chong {
+    padding: 5px 0px 0px 24px;
+}
+.m-chong>span {
+	font-size: 12px;
+	padding: 0px 19px 0px 0px;
+}
+.huafei {
+	color: #ffc4b5;
+}
+.m-chonghuafei>div {
+    width: 184px;
+    height: 19px;
+    border: 1px solid #cccccc;
+    margin: 0px 0px 0px 15px;
+    font-size: 12px;
+    color: #cccccc;
+    font-weight: bold;
+    padding: 5px 0px 0px 4px;
+}
+.m-chonghuafei-1 {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+}
+.m-chonghuafei-2 {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+.bh1{
+	position: absolute;
+    left: 17px;
+    top: 92px;
+}
+.bh1>li{
+	font-size: 12px;
+	float: left;
+}
+.shuzi {
+    padding: 0px 0px 0px 8px;
+    letter-spacing: 1px;
+    color: #ff641a;
+}
+.bh2{
+	position: absolute;
+    left: 16px;
+    top: 115px;
+	width: 59px;
+    height: 22px;
+    padding: 4px 0px 0px 7px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff1e1;
+    background-color: #fe4914;
+}

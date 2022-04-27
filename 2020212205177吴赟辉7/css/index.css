@@ -1,0 +1,255 @@
+body {
+	padding: 20px;
+}
+header {
+	width: 990px;
+	margin-bottom: 9px;
+}
+a {
+	text-decoration: underline;
+}
+header>.m-tl>.m-tab>span{
+	background: #268fca;
+	color: #fff;
+	padding: 4px 0px 4px 0px;
+	border-radius: 4px 4px 0px 0px;
+	display: block;
+	text-align: center;
+}
+header>.m-tl>.m-tip>span {
+	background: #fd6710;
+	color: #fff;
+	padding: 2px 4px 0px 0px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+}
+header>.m-tl>.m-fun>span {
+	border: 1px solid #ccc;
+	color: #002cbd;
+	padding: 2px 4px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 2px;
+}
+.m-fun.ui-grid-2 {
+	text-align: right;
+	margin-right: 0px;
+}
+.m-tl.ui-grid-row {
+	border-bottom: 5px solid #268fca;
+	width: 990px;
+}
+.m-tl>.ui-grid-2, .m-tl>.ui-grid-21 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.m-bd {
+	width: 990px;
+	height: 72px;
+	box-shadow: 0px 0px 4px -2px inset;
+}
+.m-bd-1-1 {
+	padding: 10px 0px 0px 0px;
+}
+.m-bd-1-2 {
+	padding: 10px 0px 0px 0px;
+}
+.m-bd-1-1>span {
+    font-size: 14px;
+    color: #cf0000;
+    font-weight: 700;
+}
+.m-bd-1-1>span>em {
+	margin-left: 10px;
+}
+.m-bd-1-2-1{
+	font-size: 12px;
+}
+.m-bd-1-2-2{
+	font-size: 12px;
+	color: #cf0000;
+}
+.m-bd-2-1>span>em {
+	margin-left: 10px;
+}
+.m-bd-2-1>span>span {
+    font-size: 12px;
+    color: #cf0000;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.m-bd-2-2>span>span {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.m-bd-2-3>span>span {
+    font-size: 12px;
+    color: #cf0000;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.m-mid {
+    width: 990px;
+    height: 36px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+    background-color: #fffbde;
+}
+.m-mid>a {
+	color: #002cbd;
+	text-decoration: underline;
+	float: right;
+	margin-right: 5px;
+	padding: 10px 0px 0px 0px;
+}
+.m-menu.ui-grid-row {
+    width: 990px;
+    background-color: #cedce8;
+    margin-bottom: 3px;
+}
+.m-menu>.ui-grid-16 {
+    margin: 0px 8px 0px 0px;
+    text-align: center;
+    color: #607a90;
+}
+.m-menu>.ui-grid-2,.m-menu>.ui-grid-3 {
+	margin: 0px 5px 0px 0px;
+    text-align: center;
+    color: #607a90;
+    border-left: 3px solid #fff;
+}
+.m-addresstime.ui-grid-row{
+	width: 990px;
+	height: 38px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 1px 1px 1px #ccc;
+}
+.m-addresstime>.ui-grid-16 {
+    margin: 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+    padding: 8px 0px 0px 0px;
+}
+.m-addresstime>.ui-grid-2 {
+    margin: 0px;
+    text-align: center;
+    padding: 8px 0px 0px 10px;
+}
+.m-time>a {
+	text-decoration: underline;
+	color: #002cbd;
+}
+.m-ats1>.ui-grid-4>.time{
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+}
+.m-ats1>.ui-grid-4>.long{
+	font-size: 12px;
+	text-align: center;
+}
+.m-ats1>.ui-grid-4{
+	padding: 2px 0px 0px 0px;
+}
+.m-ats1>.ui-grid-12,.m-ats1>.ui-grid-2,.m-ats1>.ui-grid-3{
+	padding: 10px 0px 0px 0px;
+	border-left: 2px solid #ccc;
+	margin: 0px 6px 0px 0px;
+}
+.m-ats1>.ui-grid-12{
+	height: 40px;
+}
+.m-ats1>.ui-grid-2{
+	height: 40px;
+}
+
+.m-ats1>.ui-grid-3{
+	height: 40px;
+}
+
+.bus {
+	text-align: center;
+	color: #996600;
+	font-weight: 700;
+	margin-right: 12px;
+}
+.train {
+	text-align: center;
+	color: #0099ff;
+	font-weight: 700;
+	margin-right: 12px;
+}
+.money {
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+}
+.zhiding {
+	text-align: center;
+	font-size: 12px;
+}
+.juli {
+	text-align: center;
+	font-size: 12px;
+}
+.m-ats1>.ui-grid-12>.text {
+	color: #0069a3;
+}
+.stext {
+	margin-top: 0px;
+}
+.stext>a {
+	margin-right: 294px;
+	color: #0099ff;
+}
+.stext>button {
+    margin-left: 54px;
+    width: 65px;
+    height: 20px;
+    background-color: #0069a3;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+.m-ats2.ui-grid-row {
+	width: 990px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 1px 1px 1px #ccc;
+}
+.m-ats2>.ui-grid-16 {
+    width: 598px;
+    padding: 15px 0px 0px 41px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+}
+.m-ats2>.ui-grid-2 {
+    width: 160px;
+    padding-top: 18px;
+}
+.m-ats2>.ui-grid-7 {
+    width: 170px;
+    margin-right: 0px;
+}
+.m-ats2>.ui-grid-7>div>a {
+	color: #002cbd;
+}
+.m-ats2>.ui-grid-7>.a1 {
+	margin-left: 43px;
+	padding-top: 5px;
+}
+.m-ats2>.ui-grid-7>.a2 {
+	margin-left: 122px;
+}
+.m-ats2>.ui-grid-7>.a3 {
+    margin-left: 83px;
+    padding-top: 5px;
+}
+.m-ats2>.ui-grid-7>.a4 {
+	margin-left: 101px;
+}

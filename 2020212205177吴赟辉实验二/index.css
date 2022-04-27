@@ -1,0 +1,89 @@
+.bk {
+	position: absolute;
+	width: 2126px;
+	height: 1088px;
+	background: url('../img/背景.png') no-repeat;
+	opacity: .2;
+}
+.menu {
+    padding: 32px 128px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.menu-item+.menu-item {
+    margin-left: 39px;
+}
+.s1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.s2 {
+    padding: 6px 6px;
+    font-size: 37px;
+    letter-spacing: 1px;
+}
+.s3 {
+    padding: 8px 1px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.s4 {
+    padding: 26px 0px;
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+.s5 {
+    padding: 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0px;
+}
+.s4+.s5 {
+    margin-top: -17px;
+    margin-bottom: 17px;
+}
+.m1-item {
+    padding: 47px 67px;
+}
+.m1-item+.m1-item {
+    margin-top: -10px;
+}
+.m1 {
+	float: left;
+}
+.m2 {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+
+.xtitle {
+    font-size: 37px;
+    letter-spacing: 1px;
+    padding: 106px 116px;
+}
+.xtitle+.m2-item {
+    margin-top: -108px;
+}
+.m2-item{
+	padding: 100px 100px;
+}
+.j1 {
+	font-size: 28px;
+    letter-spacing: 1px;
+    padding: 4px 104px;
+}
+.j2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding: 3px 107px;
+}
+.j3 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    padding: 4px 104px;
+}
+.m2-item+.m2-item {
+    margin-top: -158px;
+}

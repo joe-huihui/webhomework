@@ -1,0 +1,228 @@
+@media all and (max-width:600px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+  } 
+  .top {
+    height: 55px;
+    background-color: #06c1ae;
+  }
+  .top>.col-xs-3 {
+    color: #fff;
+    margin-top: 13px;
+    font-size: 19px;
+    text-align: center;
+  }
+  .top>.col-xs-3>span {
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 3px;
+  }
+  .top>.col-xs-7 {
+    background-color: #05a494;
+    height: 30px;
+    color: #68dbce;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 0px;
+  }
+  .top>.col-xs-2 {
+    color: #fff;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu>div {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  li {
+    list-style: none;
+  }
+  .menu>.col-xs-12>.col-xs-3>li{
+    height: 50px;
+    width: 50px;
+    background-color: #66ccee;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px 0px 0px 24px;
+  }
+  .menu>.col-xs-12>.col-xs-3>span{
+    color: #ccc;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 41px;
+  }
+  .kh{
+    height: 20px;
+    background-color: #f0efed;
+  }
+  .box1{
+    display: flex;
+    flex-direction: row;
+  }
+  .box1-l {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd8ce;
+    margin: 10px 0px 10px 0px;
+  }
+  .box1-l>li {
+    height: 100px;
+    width: 100px;
+    background-color: #666666;
+    margin: 4px 0px 8px 0px;
+  }
+  .gt{
+    font-size: 24px;
+    color: #55a40f;
+    font-weight: 700;
+  }
+  .xt{
+    font-size: 18px;
+    color: #ccc;
+  }
+  .box1-r{
+    display: flex;
+    flex-direction: column;
+  }
+  .box1-rt{
+    display: flex;
+    flex-direction: row;
+    margin-left: -14px;
+    padding-left: 16px;
+    border-bottom: 1px solid #ddd8ce;
+  }
+  .box1-rt>span{
+    display: flex;
+    flex-direction: column;
+  }
+  .ot{
+    font-size: 24px;
+    color: #ff5123;
+    font-weight: 700;
+    margin-top: 16px;
+  }
+  .box1-rt>li{
+    height: 70px;
+    width: 70px;
+    background-color: #666666;
+    margin: 9px 1px 13px 55px;
+  }
+  .box1-rb{
+    display: flex;
+    flex-direction: row;
+  }
+  .box1-rbl {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd8ce;
+    height: 88px;
+  }
+  .pt{
+    font-size: 24px;
+    color: #fa90c7;
+    font-weight: 700;
+  }
+  .box1-rbl>li {
+    height: 45px;
+    width: 45px;
+    background-color: #666666;
+    margin: 4px 35px 0px 35px;
+   }
+   .box1-rbr{
+    display: flex;
+    flex-direction: column;
+   }
+   .box1-rbr>span{
+    margin: 0px 0px 0px 15px;
+   }
+   .box1-rbr>span>span{
+    background-color: #4c4c4c;
+    color: #fdfdfd;
+    text-align: center;
+    border-radius: 3px;
+   }
+   .box2{
+    display: flex;
+    flex-direction: row;
+   }
+   .box2>div{
+    display: flex;
+    flex-direction: row;
+   }
+   .box2>div>span{
+    display: flex;
+    flex-direction: column;
+   }
+   .box2l{
+    border-right: 1px solid #ddd8ce;
+   }
+   .box2>div>li{
+    height: 70px;
+    width: 70px;
+    background-color: #666666;
+    margin: 10px 0px 10px 20px;
+   }
+   .khb {
+    border-bottom: 1px solid #ddd8ce;
+   }
+   .khb>span{
+    color: #666666;
+    font-size: 20px;
+   }
+   .bbox {
+    display: flex;
+    flex-direction: column;
+   }
+   .bbox>div{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #ddd8ce;
+   }
+   .bbox>div>li{
+    height: 100px;
+    width: 100px;
+    background-color: #666666;
+    margin: 10px 10px 10px 10px;
+   }
+   .bbox>div>div{
+    display: flex;
+    flex-direction: column;
+   }
+   .bt{
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: -5px;
+   }
+   .lt{
+    color: #07c1ae;
+    font-size: 22px;
+    margin-top: 15px;
+   }
+   .lt1{
+    color: #ff9900;
+    border: 1px solid #ff9900;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+   }
+   .lt2{
+    font-size: 14px;
+    color: #666666;
+    margin-left: 115px;
+   }
+   .bottom {
+    background-color: #a0c5e8;
+    height: 40px;
+   }
+   .bottom>span{
+    color: #25c8b8;
+    font-size: 25px;
+   }
+}
+

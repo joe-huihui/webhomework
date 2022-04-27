@@ -1,0 +1,109 @@
+.m-nav {
+    display: flex;
+    width: 1000px;
+}
+.u-tab {
+    width: 80px;
+    height: 32px;
+    border: 1px solid;
+}
+.u-tab.focus {
+    background-color: #ccc;
+}
+.g-bd {
+    width: 800px;
+    height: 500px;
+    border: 1px solid;
+}
+.m-content {
+	position: absolute;
+	left: 400px;
+	top: 230px;
+	font-size: 60px;
+    font-weight: 900;
+    color: #ccc;
+	display: block;
+}
+.m-content.hide {
+    display: none;
+}
+li {
+    list-style: none;
+}
+.m-list {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: -250px;
+    top: -100px;
+}
+.u-pic {
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+    line-height: 75px; 
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;  
+    background: url('背景.png') no-repeat;
+}
+.u-box {
+    width: 240px;
+    height: 240px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px -3px inset;
+    position: absolute;
+    left: -120px;
+    top: 50px;
+    object-fit: contain;
+}
+.u-box.hide {
+    display: none;
+}
+.m-data {
+    width: 600px;
+    height: 360px;
+    margin: -180px 0px 0px -300px;
+    display: flex;
+    flex-direction: column;l
+}
+.u-add {
+    width: 105px;
+    height: 35px;
+    color: #fff;
+    background-color: #339966;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+.u-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.u-no {
+    font-size: 14px;
+    color: #000;
+    border: 1px solid;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.u-info {
+    width: 440px;
+    height: 30px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.u-del {
+    font-size: 14px;
+    color: #000;
+    border: 1px solid;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
